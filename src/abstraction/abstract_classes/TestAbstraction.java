@@ -38,11 +38,11 @@ public class TestAbstraction {
         System.out.println(iPhone.OS);
         System.out.println(Samsung.OS);
         System.out.println(Nokia.OS);
+        for (Phone phone : phones) {
+            phone.call();
+            phone.ring();
+            phone.text();
 
-
-
-
-
-
+        }
     }
 }
